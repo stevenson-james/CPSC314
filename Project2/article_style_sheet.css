@@ -1,0 +1,90 @@
+/*
+    Authors: James Stevenson and Carter Mooring
+*/
+
+html {
+    color: white;
+    background-color: #212121;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+h2 {
+    font-size: 2rem;
+}
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 0px;
+    text-align: center;
+    background: #018786;
+}
+nav a {
+    padding: .75rem 0 .75rem 0;
+    font-size: 24px;
+    border: 2px solid lightgray;
+    font-family: 'Staatliches', cursive;
+    
+} 
+a {
+    color: white;
+    text-decoration: none;
+}
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 2.75fr 1fr;
+    grid-gap: 20px;
+}
+aside {
+    border-left: 3px solid lightgray;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+aside h2{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+aside p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hero {
+    border-bottom: 1px solid #999;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.hero p, .picture p {
+    font-family: 'Roboto', sans-serif;
+    color: lightgray;
+    font-size: .85rem;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.picture p{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+.picture img {
+    width: 75%;
+}
+article {
+    padding: 0 60px 0 60px;
+}

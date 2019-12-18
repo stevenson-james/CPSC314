@@ -1,0 +1,65 @@
+/*
+    Authors: James Stevenson and Carter Mooring
+*/
+
+html{
+    color: white;
+    background-color: #212121;
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    color: #03DAC6;
+    font-size: 14em;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+h2{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 4em;
+}
+h3{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px 3px 3px 9px;
+}
+p{
+    margin-top: 10px;
+    padding: 3px 15px 3px 15px;
+}
+section{
+    background-color: #018786;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;;
+}
+div{
+    background-color: #000000;
+    border: 1px solid white;
+    
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.wrapper div:nth-child(1){
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+.wrapper div:nth-child(5){
+    grid-column: 3;
+    grid-row: 2 / 4;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

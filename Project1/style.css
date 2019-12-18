@@ -1,0 +1,92 @@
+/*
+    author: James Stevenson
+    course: CPSC 314
+*/
+
+/* importing fonts from google api */
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html {
+}
+
+/* By doing this, elements can go all the way to the side of the page.
+   You can get rid of this if you want */
+body {
+    background-image: linear-gradient(#51b4f1, #044070);
+    color:white;
+    font-family: 'Montserrat', sans-serif; font-size: 14px;
+    margin: 0;
+}
+h1, h2, h3 {
+    font-family: 'Cinzel';font-size: 22px;
+}
+
+header {
+    padding: 20px;
+    background: #1abc9c;
+    text-align: center;
+}
+
+header h1, header h2 {
+    margin: 0;
+    margin-right: 30%;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header h2 {
+    font-style: italic;
+}
+
+h3, p {
+    margin: 20px;
+    width: 70%;
+}
+
+/* Link that has not been visited */
+a:link {
+    color:rgb(8, 255, 8);
+}
+
+/* Link where the mouse is hovering over the it */
+a:hover {
+    color: rgb(171, 240, 171);
+}
+
+/* Link that is being actively clicked on */
+a:active {
+    color: #0f0;
+}
+
+/* Link that has been visited */
+a:visited {
+    color: rgb(11, 243, 212);
+}
+
+.sidebar {
+        margin-left: 500px; 
+        padding-top: 140px;
+        position: absolute; 
+        top: 0; 
+        right: 0;
+        background: rgba(150, 165, 167, 0.568);
+}
+
+.sidebar .wrapper { 
+    padding-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    font-size: 18px;
+    background: #022541a1;
+    padding: 10px;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 20px;
+}
+
